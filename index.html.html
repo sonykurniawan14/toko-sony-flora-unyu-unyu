@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Toko Flora Unyu Unyu - Tanaman Hias & Sukulen Gemas</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>🌸 Toko Flora Unyu Unyu</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="promo.html">Promo</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+            </ul>
+        </nav>
+        
+        <div class="cart-icon" id="open-cart-btn">
+            <a href="#" aria-label="Buka Keranjang Belanja">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <span id="cart-count" class="cart-count">0</span>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Toko Flora Unyu Unyu</h2>
+                <p>Hadirkan Keindahan Alam Miniatur ke Ruangan Anda.</p>
+                <a href="#produk" class="cta-button">Jelajahi Koleksi</a>
+            </div>
+        </section>
+        
+        <section class="featured-collections">
+            <h3>Koleksi Pilihan Kami</h3>
+            <div class="collection-grid">
+
+                <div class="collection-item">
+                    <a href="catalog.html">
+                        <img src="https://i.pinimg.com/originals/b3/ca/3d/b3ca3dbb1b6146830969682e9c7b4257.jpg" 
+                                alt="Kaktus Mini Gemas" class="collection-image">
+                        <h4>Kaktus Mini Gemas</h4>
+                        <p>Koleksi kaktus dan sukulen dalam pot keramik warna-warni.</p>
+                        <span class="item-link">Lihat Koleksi</span>
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <a href="catalog.html">
+                        <img src="https://www.rukita.co/stories/wp-content/uploads/2019/12/Tanaman-Hias-dalam-Rumah.jpg"
+                                alt="Tanaman Hias Indoor" class="collection-image">
+                        <h4>Tanaman Hias Indoor</h4>
+                        <p>Tanaman penyaring udara untuk mempercantik sudut rumah Anda.</p>
+                        <span class="item-link">Lihat Koleksi</span>
+                    </a>
+                </div>
+
+                <div class="collection-item">
+                    <a href="promo.html">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7qukz-ljoso3p9076v32"
+                                alt="Diskon Paket Starter" class="collection-image">
+                        <h4>Paket Starter Kit</h4>
+                        <p>Mulai hobi Anda dengan paket lengkap dan harga hemat.</p>
+                        <span class="item-link">Lihat Promo</span>
+                    </a>
+                </div>
+
+            </div>
+            
+            <h3 id="produk" style="margin-top: 80px;">Produk Unggulan</h3>
+            <div class="product-grid">
+                
+                <div class="product-card" data-id="P001" data-name="Monstera Mini Obliqua" data-price="99000">
+                    <div class="product-image-container">
+                        <span class="discount-label">Diskon!</span>
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.2ikWr5zutFlagYY36ZnTKgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Monstera Mini Obliqua" class="product-image">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">Monstera Mini Obliqua</h4>
+                        <p class="feature-tag"><i class="fas fa-check-circle"></i> Daun Bolong Unik</p>
+                        <p class="feature-tag"><i class="fas fa-sun"></i> Perlu Cahaya Tidak Langsung</p>
+                        <p class="original-price">Rp120.000</p>
+                        <p class="current-price price-display">Rp99.000</p>
+                        <p class="color-count">Pot diameter 10cm</p>
+                    </div>
+                    <div class="product-actions">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Toko%20Flora%20Unyu%20Unyu,%20saya%20mau%20pesan%20Monstera%20Mini%20Obliqua%20(Rp99.000).%20Apakah%20stok%20tersedia?" class="buy-now-btn btn-wa" target="_blank">Beli Langsung (WA)</a>
+                        <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="P002" data-name="Sansevieria Golden" data-price="75000">
+                    <div class="product-image-container">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.JIKHLW_uoAAieb4hpkDCKgHaHa?w=1080&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Sansevieria Golden" class="product-image">
+                    </div>
+                    <div class="product-details">
+                        <h4 class="product-title">Sansevieria Golden</h4>
+                        <p class="feature-tag"><i class="fas fa-star"></i> Best Seller</p>
+                        <p class="feature-tag customize"><i class="fas fa-wind"></i> Pembersih Udara</p>
+                        <p class="original-price" style="text-decoration: none;">&nbsp;</p>
+                        <p class="current-price price-display">Rp75.000</p>
+                        <p class="color-count">Tersedia dalam 3 ukuran</p>
+                    </div>
+                    <div class="product-actions">
+                        <a href="https://wa.me/6281617024659?text=Halo%20Toko%20Flora%20Unyu%20Unyu,%20saya%20mau%20pesan%20Sansevieria%20Golden%20(Rp75.000).%20Apakah%20stok%20tersedia?" class="buy-now-btn btn-wa" target="_blank">Beli Langsung (WA)</a>
+                        <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <p class="catatan-wa"> jangan ragu jangan bimbang sama owner udah pasti disayang</p>
+        </section>
+
+        <section class="usp-section">
+            <h3>Mengapa Memilih Toko Flora Unyu Unyu?</h3>
+            <ul>
+                <li><i class="fas fa-seedling"></i> Tanaman Sehat & Berkualitas Premium</li>
+                <li><i class="fas fa-truck-fast"></i> Pengiriman Aman ke Seluruh Jawa</li>
+                <li><i class="fas fa-gift"></i> Gratis Panduan Perawatan Eksklusif</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Toko Flora Unyu Unyu. Semua Hak Dilindungi.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Ikuti kami di Instagram"><i class="fab fa-instagram"></i></a> 
+                <a href="#" aria-label="Ikuti kami di Facebook"><i class="fab fa-facebook-f"></i></a> 
+                <a href="#" aria-label="Ikuti kami di TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>Keranjang Belanja Unyu</h3>
+            <span class="close-btn" id="close-cart-btn">&times;</span>
+        </div>
+        <div class="cart-items-container" id="cart-items">
+            <p id="empty-cart-message">Keranjang Anda masih kosong. Ayo pilih tanaman!</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">Rp0</span>
+            </div>
+            <button class="checkout-btn" id="checkout-wa-btn">Checkout via WhatsApp</button>
+        </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

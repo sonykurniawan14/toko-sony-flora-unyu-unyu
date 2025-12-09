@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Katalog Flora Unyu Unyu</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>🌸 Toko Flora Unyu Unyu</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="promo.html">Promo</a></li>
+                <li><a href="catalog.html" class="active">Katalog</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="open-cart-btn">
+            <a href="#" aria-label="Buka Keranjang Belanja">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <span id="cart-count" class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="page-header">
+            <h2>Semua Koleksi Tanaman Unyu</h2>
+            <p>Pilih teman hijau favorit Anda dari ribuan spesies gemas!</p>
+        </section>
+
+        <div class="filter-bar">
+            <label for="sort">Urutkan:</label>
+            <select id="sort">
+                <option value="newest">Terbaru</option>
+                <option value="price-asc">Harga Termurah</option>
+                <option value="price-desc">Harga Termahal</option>
+            </select>
+            <label for="category">Kategori:</label>
+            <select id="category">
+                <option value="all">Semua</option>
+                <option value="succulent">Sukulen</option>
+                <option value="cactus">Kaktus</option>
+                <option value="indoor">Tanaman Indoor</option>
+            </select>
+        </div>
+
+        <section class="catalog-grid product-grid">
+            
+            <div class="product-card" data-id="C001" data-name="Kaktus Bunny Ears" data-price="30000">
+                <div class="product-image-container">
+                    <img src="https://down-id.img.susercontent.com/file/edbda79f6c7dc735a7be59a6598de638" alt="Kaktus Bunny Ears" class="product-image">
+                </div>
+                <div class="product-details">
+                    <h4 class="product-title">Kaktus Bunny Ears</h4>
+                    <p class="feature-tag"><i class="fas fa-paw"></i> Lucu seperti telinga kelinci</p>
+                    <p class="current-price price-display">Rp30.000</p>
+                    <p class="color-count">Pot mini putih</p>
+                </div>
+                <div class="product-actions">
+                    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Kaktus%20Bunny%20Ears" class="buy-now-btn btn-wa" target="_blank">Beli Langsung (WA)</a>
+                    <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card" data-id="C002" data-name="Echeveria Raksasa" data-price="55000">
+                <div class="product-image-container">
+                    <img src="https://gardenerspath.com/wp-content/uploads/2023/07/How-to-Grow-Echeveria-Feature.jpg" alt="Echeveria Raksasa" class="product-image">
+                </div>
+                <div class="product-details">
+                    <h4 class="product-title">Echeveria Raksasa</h4>
+                    <p class="feature-tag"><i class="fas fa-heart"></i> Bentuk Roset sempurna</p>
+                    <p class="current-price price-display">Rp55.000</p>
+                    <p class="color-count">Warna gradasi pink</p>
+                </div>
+                <div class="product-actions">
+                    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Echeveria%20Raksasa" class="buy-now-btn btn-wa" target="_blank">Beli Langsung (WA)</a>
+                    <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+            </div>
+            
+            </section>
+
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Toko Flora Unyu Unyu. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+    
+    <div class="cart-drawer" id="cart-drawer"></div>
+    <div class="overlay" id="overlay"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Promo Unyu Unyu Hari Ini</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>🌸 Toko Flora Unyu Unyu</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="promo.html" class="active">Promo</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" id="open-cart-btn">
+            <a href="#" aria-label="Buka Keranjang Belanja">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <span id="cart-count" class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="page-header">
+            <h2 class="promo-title">✨ Penawaran Terbatas & Paket Hemat! ✨</h2>
+            <p>Jangan lewatkan kesempatan mendapatkan tanaman unyu ini dengan harga terbaik!</p>
+        </section>
+
+        <section class="promo-grid">
+            
+            <div class="product-card promo-card" data-id="PRO01" data-name="Paket Starter Sukulen" data-price="90000">
+                <div class="product-image-container">
+                    <span class="discount-label">HEMAT 25%</span>
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7qul1-lhxgc8jb67s74c" alt="Paket Starter Sukulen" class="product-image">
+                </div>
+                <div class="product-details">
+                    <h4 class="product-title">Paket Starter Sukulen (3 Jenis)</h4>
+                    <p class="feature-tag"><i class="fas fa-box"></i> Ideal untuk Pemula</p>
+                    <p class="original-price">Rp120.000</p>
+                    <p class="current-price price-display">Rp90.000</p>
+                    <p class="color-count">Gratis Pot Unyu</p>
+                </div>
+                <div class="product-actions">
+                    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Paket%20Starter%20Sukulen" class="buy-now-btn btn-wa" target="_blank">Beli Paket (WA)</a>
+                    <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card promo-card" data-id="PRO02" data-name="Kaktus Bunga Pink" data-price="40000">
+                <div class="product-image-container">
+                    <span class="discount-label" style="background-color: var(--color-primary);">Tanaman Bulan Ini</span>
+                    <img src="https://cf.shopee.co.id/file/035734053c8e0e6958cfa01474cd2e61" alt="Kaktus Bunga Pink" class="product-image">
+                </div>
+                <div class="product-details">
+                    <h4 class="product-title">Kaktus Bunga Pink</h4>
+                    <p class="feature-tag"><i class="fas fa-tag"></i> Diskon Khusus!</p>
+                    <p class="original-price">Rp65.000</p>
+                    <p class="current-price price-display">Rp40.000</p>
+                    <p class="color-count">Stok Terbatas</p>
+                </div>
+                <div class="product-actions">
+                    <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Kaktus%20Bunga%20Pink" class="buy-now-btn btn-wa" target="_blank">Beli Promo (WA)</a>
+                    <button class="add-to-cart-btn" aria-label="Tambah ke Keranjang">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Toko Flora Unyu Unyu. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <div class="cart-drawer" id="cart-drawer"></div>
+    <div class="overlay" id="overlay"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
